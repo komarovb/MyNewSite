@@ -27,37 +27,37 @@ body{
 	float: left;
 	width: 250px;
 }
-.navigation{
+.pnav{
 	overflow: hidden;
 	background: #eff3f7;
 	border-radius: 4px;
 	margin-bottom: 26px;
 }
-.navigation .navigation-list {
+.pnav .pnav-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.navigation .navigation-item {
+.pnav .navigationi {
 	border-top: 2px solid #3ba8c0;
 	margin: 0 11px;
 }
-.navigation .navigation-item:first-child{
+.pnav .navigationi:first-child{
 	border-top: none;
 }
-.navigation .navigation-item.current{	
+
+.pnav .navigationi.current{	
 	background: #3ba8c0;
 	margin: 0;
 	border-bottom: none;
 	padding-left: 11px;
-	margin-bottom: -2px; /* Хак */
+	margin-bottom: -2px; /*Спасибо за Хак */
 }
-
-.navigation .navigation-item.current .navigation-link{
+.pnav .navigationi.current .pnav-link{
 	color: #f9fafb;
 	font-size: 22px;
 }
-.navigation .navigation-link {
+.pnav .pnav-link {
 	font-family: 'fira_sansbook';
 	display: block;
 	font-size: 20px;
@@ -66,9 +66,12 @@ body{
 	margin-left: 16px;
 	padding: 20px 0px;
 }
-.navigation .navigation-link:hover{
+.pnav .pnav-link:hover{
 	color: #3ba8c0;
-} 
+}
+.cont{
+	
+}
 /*----------End of Menu------*/
 .content:before, .clearfix:before,
 .content:after, .clearfix:after {

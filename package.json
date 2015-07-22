@@ -1,6 +1,6 @@
 {
   "name": "dz1",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "browser-sync": "^2.7.13"
   }
 }

@@ -31,6 +31,7 @@ html,body{
 	overflow: hidden;
 	background: #eff3f7;
 	border-radius: 4px;
+	margin-bottom: 25px;
 }
 .pnav .pnav-list {
 	list-style: none;

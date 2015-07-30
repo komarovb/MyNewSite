@@ -12,6 +12,7 @@ html,body{
 	min-width: 970px;
 	position: relative;
 	height: auto!important;
+  	margin: auto;
 }
 .wrap:after{
 	content: "";
@@ -31,7 +32,7 @@ html,body{
 	overflow: hidden;
 	background: #eff3f7;
 	border-radius: 4px;
-	margin-bottom: 25px;
+  	margin-bottom:25px;
 }
 .pnav .pnav-list {
 	list-style: none;
@@ -155,15 +156,20 @@ html,body{
 	margin-bottom: 40px;
 	height: 120px;
 }
+.head-wrap{
+  	width:100%;
+	max-width:1200px;
+  	margin:auto;
+}
 .headd{
 	display: inline-block;
 }
-.pheader .left{
+.left{
 	float: left;
 	margin-left: 75px;
 	padding-top: 32px;
 }
-.pheader .right{
+.right{
 	float: right;
 	margin-right: 75px;
 	padding-top: 18px;
@@ -211,15 +217,22 @@ html,body{
 	min-width: 970px;
 	height: 80px;
 	margin-top: -80px;
+  	background:url("../img/line.png");
+	background-position: top;
+	background-repeat: no-repeat;
 	background-color: #eff3f7;
+  	margin: auto;
+}
+.footer-wrap{
+  width:100%;
+  max-width: 1200px;
+  margin:auto;
+  
 }
 .foot-inside{
 	margin: auto;
 	font-family: "fira_sanslight";
 	color: #4A545D;
-	background:url("../img/line.png");
-	background-position: top;
-	background-repeat: no-repeat;
 }
 .foot-text{
 	text-align: center;

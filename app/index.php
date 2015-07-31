@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
@@ -22,36 +23,14 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <div class="wrap">
-    	<header class="pheader">
-        <div class="head-wrap clearfix">
-    		<div class="headd left">
-    			<a href="http://loftschool.ru" class="logo-link" target="_blank"><img src="img/logo.png" alt="Logo" class="logo-image"></a>
-    		</div>
-    		<div class="headd right">
-    			<ul class="socials">
-    				<li class="soc">
-    					<a href="http://vk.com/id87862805" class="soc-link vk" target="_blank" >Vkontakte</a>
-    				</li>
-    				<li class="soc">
-    					<a href="http://twitter.com" class="soc-link tw" target="_blank">Twitter</a>
-    				</li>
-    				<li class="soc">
-    					<a href="https://www.facebook.com/profile.php?id=100006936542181" class="soc-link fc" target="_blank">Facebook</a>
-    				</li>
-    				<li class="soc">
-    					<a href="http://github.com/komarovb" class="soc-link gh" target="_blank">Github</a>
-    				</li>
-    			</ul>
-    		</div>
-        </div>
-    	</header>
+    	<?php include 'php/header.php'; ?>
     	<div class="content">
     		<div class="menu">
     			<nav class="pnav">
 	              <ul class="pnav-list">
-	                <li class="navigationi current"><a href="index.html" class="pnav-link">Обо мне</a></li>
-	                <li class="navigationi"><a href="works.html" class="pnav-link">Мои работы</a></li>
-	                <li class="navigationi"><a href="contact.html" class="pnav-link">Связаться со мной</a></li>
+	                <li class="navigationi current"><a href="index.php" class="pnav-link">Обо мне</a></li>
+	                <li class="navigationi"><a href="works.php" class="pnav-link">Мои работы</a></li>
+	                <li class="navigationi"><a href="contact.php" class="pnav-link">Связаться со мной</a></li>
 	              </ul>
 	            </nav>
 	            <div class="contacts">
@@ -148,18 +127,7 @@
     		</div>
     	</div>
     </div>
-    <footer class="pfooter">
-      <div class="footer-wrap">
-    	<div class="foot-inside">
-    		<div class="lock">
-					<a href="#" class="lock-link">Войти</a>
-			</div>
-    		<div class="foot-text">
-    			© 2015, Это мой сайт, пожалуйста, не копируйте и не воруйте его!
-    		</div>
-    	</div>
-      </div>
-    </footer>
+    <?php include 'php/footer.php'; ?>
     <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>

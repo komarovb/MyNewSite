@@ -1,0 +1,52 @@
+p{
+	margin: 0px;
+	padding: 0px;
+}
+.admin-form{
+	width:590px;
+	text-align: center;
+	margin: auto;
+	font-family: "fira_sansbook";
+	margin-top: 75px;
+	background-color: #eff3f7;
+}
+.form-head{
+	width:100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border-bottom: 15px solid #67dffa;
+	background-color: #48cbe8;
+	font-size: 40px;
+  	font-family: "fira_sansbook";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	margin-bottom: 28px;
+}
+.adform{
+	width: 425px;
+	margin: auto;
+}
+.flabel{
+	font-size: 36px;
+  	font-family: "fira_sansbook";
+  	color: rgb(149, 154, 168);
+  	line-height: 1.2;
+	margin-bottom: 12px;
+}
+.admin-input{
+	margin-bottom: 25px;
+}
+.admin-btn{
+	border-radius: 8px;
+  	background-color: rgb(72, 203, 232);
+	width: 50%;
+	margin: auto;
+	font-size: 36px;
+  	font-family: "fira_sansbook";
+  	color: rgb(246, 246, 246);
+  	line-height: 1.2;
+  	margin-bottom: 25px;
+}
+.foot-inside{
+	text-align: center;
+}

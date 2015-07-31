@@ -1,0 +1,94 @@
+.block-header-page3{
+	background-color: #48cbe8;
+	width:100%;
+	//height: 120px;
+	padding-top:45px;
+	padding-bottom: 45px;
+	font-size: 27px;
+  	font-family: "fira_sansbook";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	text-align: center;
+  	border-bottom: 16px solid #67dffa;
+}
+.sm-1{
+	height: 17px;
+}
+.contact-form{
+	width:65%;
+	margin-top: 50px;
+	margin-left: 122px;
+}
+.form-group-top{
+	display: inline-block;
+	width:44.5%;
+
+
+}
+.cont-top{
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 19px;
+  	font-family: "fira_sansbook";
+  	color: rgb(149, 154, 168);
+  	line-height: 1.2;
+  	text-align: left;
+}
+.cont-input-top{
+	width:100%;
+}
+.top2{
+	margin-left: 38px;
+}
+.cont-mid{
+	margin-top: 10px;
+	margin-bottom: 4px;
+
+}
+.text-mid{
+	width: 99.3%;
+	height: 175px;
+	padding-top: 8px;
+}
+.captcha{
+	display: inline-block;
+}
+.form-group-top img{
+	border-width: 1px;
+  	border-color: rgb(72, 203, 232);
+  	border-style: solid;
+  	border-radius: 4px;
+}
+.capt{
+	width:50px;
+
+}
+.capt{
+
+}
+.but-bot{
+	display: inline-block;
+	margin-bottom: 25px;
+	box-shadow: 0px 11px 5px -8px #163e69;
+	color: rgb(255, 255, 255);
+	width: 125px;
+	font-family: "fira_sansbook";
+}
+.but-bot:hover{
+	box-shadow: 0px 0px 0px 0px #163e69;
+	cursor: pointer;
+}
+#sbut{
+	border-radius: 5px;
+  	background-color: rgb(72, 203, 232);
+}
+
+#clearbut{
+	float: right;
+	background-color: rgb(132, 157, 181);
+	border-radius: 5px;
+}
+table{
+	width:100%;
+	vertical-align: bottom;
+}

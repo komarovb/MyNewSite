@@ -23,6 +23,11 @@ html,body{
 	width: 960px;
 	margin: 0px auto;
 }
+.block {
+    background: #eff3f7;
+    border-radius: 4px;
+    margin-bottom: 26px;
+}
 /*--------------Menu---------*/
 .menu{
 	float: left;
@@ -263,4 +268,20 @@ html,body{
 .lock .lock-link:hover{
 	text-decoration: underline;
 	background: url(../img/locko.png) no-repeat;
+}
+/*Inputs*/
+.add-input{
+	font-size: 14px;
+  	font-family: "fira_sansbook";
+  	color: rgb(72, 203, 232);
+  	line-height: 1.2;
+  	text-align: left;
+	border-width: 1px;
+  	border-color: rgb(72, 203, 232);
+  	border-style: solid;
+  	border-radius: 4px;
+  	background-color: rgb(251, 252, 253);
+  	height: 36px;
+  	width:97%;
+  	padding-left: 7px;
 }

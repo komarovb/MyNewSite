@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/works.css">
-	<title>About me</title>
+	<title>My projects</title>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -59,6 +59,15 @@
     			<div class="block">
     				<h2 class="block-head">Мои проекты</h2>
 	             	<div class="block-body clearfix">
+	             		<div class="single-proj f-in-row">
+	             			<div class="proj-img p1"></div>
+	             			<a href="http://pbooklist.herokuapp.com/" target="_blank" class="site-url">www.pbooklist.herokuapp.com</a>
+							<p class="site-desc">In progressIn progress  In progress 
+							In progress In progress In progress In progress </p>
+	             		</div>
+	             		<div class="single-proj">
+	             			<div class="proj-img new-proj"></div>
+	             		</div>
 	              	</div>
     			</div>
     		</div>

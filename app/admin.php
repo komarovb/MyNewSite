@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/admin.css">
-	<title>About me</title>
+	<title>Admin page</title>
 </head>
 <body>
 	<!--[if lt IE 8]>

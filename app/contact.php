@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/contact.css">
-	<title>About me</title>
+	<title>Contact me</title>
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -83,9 +83,9 @@
 							</div>
 							</tr>
 						</table><br>
+						<button type="button" class="but-bot sub-1" id="sbut">Отправить</button>
+						<button type="reset" class="but-bot sub-1" id="clearbut">Очистить</button>
 					</form>
-					<button type="button" class="but-bot sub-1" id="sbut">Отправить</button>
-					<button type="reset" class="but-bot sub-1" id="clearbut">Очистить</button>
 				</div>
     			</div>
     		</div>

@@ -22,6 +22,32 @@
 	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <div id="popup_name" class="popup_block">
+		<div class="modal-header">
+			<div class="header-text het">Добавление проекта</div>
+			<div class="clo-butt het" id="close-but"></div>
+			<div class="smal-line"></div>
+		</div>
+		<div class="modal-body">
+			<form id="NewProj" class="single-form" action="php/filedownload.php" target="rFrame" method="POST"   
+   				enctype="multipart/form-data">
+				<p>Название проекта</p>
+				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name">
+				<p>Картинка проекта</p>
+				<div class="img-row">
+				<input type="text" class="add-input im-down" placeholder="Загрузите изображение" disabled id="img-name">
+				<div class="image-down down-but im-down">
+				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" onchange="$('#NewProj').submit();">
+				</div>
+				</div>
+				<p>URL проекта</p>
+				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url">
+				<p>Описание</p>
+				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc"></textarea>
+				<button type="button" class="sub-1" id="download">Добавить</button>
+			</form>
+		</div>
+	</div>
     <div class="wrap">
     	<?php include 'php/header.php'; ?>
     	<div class="content">
@@ -74,6 +100,7 @@
     	</div>
     </div>
     <?php include 'php/footer.php'; ?>
+    <div id="mask"></div>
     <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>

@@ -14,6 +14,7 @@
     <!-- Normalize -->
     <link rel="stylesheet" href="bower/normalize.css/normalize.css">
     <!-- CSS -->
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/contact.css">
 	<title>Contact me</title>
@@ -64,14 +65,14 @@
 					<form id="cont-form">
 						<div class="form-group-top">
 						<p class="cont-top">Имя</p>
-						<input type="text" class="cont-input-top add-input" name="name" placeholder="Как к Вам обращаться" qtip-position="left">
+						<input type="text" class="cont-input-top add-input" name="name" placeholder="Как к Вам обращаться" qtip-position="left" qtip-content="Введите имя!">
 						</div>
 						<div class="form-group-top top2">
 						<p class="cont-top">Email</p>
-						<input type="email" class="cont-input-top add-input" name="email" placeholder="Куда мне писать" qtip-position="right">
+						<input type="email" class="cont-input-top add-input" name="email" placeholder="Куда мне писать" qtip-position="right" qtip-content="Введите email!">
 						</div>
 						<p class="cont-top cont-mid">Сообщение</p>
-						<textarea class="text-mid add-input" name="text" placeholder="Кратно в чем суть" qtip-position="left"></textarea>
+						<textarea class="text-mid add-input" name="text" placeholder="Кратно в чем суть" qtip-position="left" qtip-content="Введите сообщение!"></textarea>
 						<p class="cont-top cont-mid">Введите код указанный на картинке</p>
 						<table>
 							<tr>
@@ -79,7 +80,7 @@
 								<td><img src="php/cap.php" /></td>
 							</div>
 							<div class="form-group-top top2">
-								<td><input class="cont-input-top add-input" type="text" name="capt" placeholder="Введите код" qtip-position="right"></td>
+								<td><input class="cont-input-top add-input" type="text" name="capt" placeholder="Введите код" qtip-position="right" qtip-content="Введите код!"></td>
 							</div>
 							</tr>
 						</table><br>
@@ -93,6 +94,7 @@
     </div>
     <?php include 'php/footer.php'; ?>
     <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
+    <script src="bower/qtip2/jquery.qtip.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

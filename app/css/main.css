@@ -286,7 +286,14 @@ html,body{
   	padding-left: 7px;
 }
 .has-error{
-	border-color: rgb(242, 204, 205);
+	border-color: rgb(243, 191, 190);
 	background-color: rgb(242, 204, 205);
-	color: rgb(242, 204, 205;
+	color: rgb(242, 204, 205);
+}
+.qtip-mystyle{
+	background-color: #f97e76;
+	border-color: #f97e76;
+	font-family: 'Arial';
+	color: #ffffff;
+	font-size: 13px;
 }

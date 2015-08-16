@@ -14,6 +14,7 @@
     <!-- Normalize -->
     <link rel="stylesheet" href="bower/normalize.css/normalize.css">
     <!-- CSS -->
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/works.css">
 	<title>My projects</title>
@@ -32,18 +33,18 @@
 			<form id="NewProj" class="single-form" action="php/filedownload.php" target="rFrame" method="POST"   
    				enctype="multipart/form-data">
 				<p>Название проекта</p>
-				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name" qtip-position="left">
+				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name" qtip-position="left" qtip-content="Введите название!">
 				<p>Картинка проекта</p>
 				<div class="img-row">
-				<input type="text" class="add-input im-down" placeholder="Загрузите изображение" disabled id="img-name" qtip-position="left">
+				<input type="text" class="add-input im-down" placeholder="Загрузите изображение" disabled id="img-name" qtip-position="left" qtip-content="Введите название!">
 				<div class="image-down down-but im-down">
-				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" onchange="$('#NewProj').submit();" qtip-position="left">
+				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" onchange="$('#NewProj').submit();" qtip-position="left" qtip-content="Выберите файл!">
 				</div>
 				</div>
 				<p>URL проекта</p>
-				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url" qtip-position="left">
+				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url" qtip-position="left" qtip-content="Введите URL!">
 				<p>Описание</p>
-				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc" qtip-position="left"></textarea>
+				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc" qtip-position="left" qtip-content="Введите описание!"></textarea>
 				<button type="button" class="sub-1" id="download">Добавить</button>
 			</form>
 		</div>
@@ -102,6 +103,7 @@
     <?php include 'php/footer.php'; ?>
     <div id="mask"></div>
     <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
+    <script src="bower/qtip2/jquery.qtip.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

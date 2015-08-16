@@ -12,6 +12,10 @@ $(document).ready(function() {
 			$("#download").on('click',function(){
 				app.Validation("#NewProj")
 			});
+			$("#enter").on('click',function(e){
+				e.preventDefault();
+				app.Validation("#adf");
+			});
 		},
 		setUpListeners2:function(){
 			$('form').on('keydown', '.has-error', app.removeError);
@@ -32,6 +36,7 @@ $(document).ready(function() {
 		},
 		ModalClose:function(){
 			var bg = $('#fade');
+			$("#NewProj").trigger('reset');
 			$("#popup_name").fadeOut(1000);
 			bg.fadeOut('fast');
 			bg.remove();
@@ -96,7 +101,12 @@ $(document).ready(function() {
 	  },
 	  clearForm:function(){
 	  	var form = $(this);
-	  	form.find('.input, .textarea').trigger('hideTooltip');
+	  	//form.find('.input, .textarea').trigger('hideTooltip');
+	  	var elements = form.find('input, textarea').not('input[type="file"], input[type="hidden"]');
+	  	$.each(elements, function(index, val) {
+	        var element = $(val);
+	        element.trigger('hideTooltip')
+	      }); 
 	    form.find('.has-error').removeClass('has-error'); 
 	    form.find('.error-mes, success-mes').text('').hide(); 
 	  },

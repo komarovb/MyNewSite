@@ -171,7 +171,7 @@
 }
 .im-down{
 	float: left;
-	width: 256px;
+	width: 80%;
 }
 .down-but{
 	background-color: rgb(72, 203, 232);
@@ -206,5 +206,10 @@
 
   	width: 139px;
 	margin-top: 8px;
+}
+.has-error{
+	border-color: rgb(243, 191, 190);
+	background-color: rgb(242, 204, 205);
+	color: rgb(242, 204, 205);
 }
 /*----------END----------*/

@@ -32,18 +32,18 @@
 			<form id="NewProj" class="single-form" action="php/filedownload.php" target="rFrame" method="POST"   
    				enctype="multipart/form-data">
 				<p>Название проекта</p>
-				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name">
+				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name" qtip-position="left">
 				<p>Картинка проекта</p>
 				<div class="img-row">
-				<input type="text" class="add-input im-down" placeholder="Загрузите изображение" disabled id="img-name">
+				<input type="text" class="add-input im-down" placeholder="Загрузите изображение" disabled id="img-name" qtip-position="left">
 				<div class="image-down down-but im-down">
-				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" onchange="$('#NewProj').submit();">
+				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" onchange="$('#NewProj').submit();" qtip-position="left">
 				</div>
 				</div>
 				<p>URL проекта</p>
-				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url">
+				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url" qtip-position="left">
 				<p>Описание</p>
-				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc"></textarea>
+				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc" qtip-position="left"></textarea>
 				<button type="button" class="sub-1" id="download">Добавить</button>
 			</form>
 		</div>

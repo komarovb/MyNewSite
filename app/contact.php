@@ -64,14 +64,14 @@
 					<form id="cont-form">
 						<div class="form-group-top">
 						<p class="cont-top">Имя</p>
-						<input type="text" class="cont-input-top add-input" name="name" placeholder="Как к Вам обращаться">
+						<input type="text" class="cont-input-top add-input" name="name" placeholder="Как к Вам обращаться" qtip-position="left">
 						</div>
 						<div class="form-group-top top2">
 						<p class="cont-top">Email</p>
-						<input type="email" class="cont-input-top add-input" name="email" placeholder="Куда мне писать">
+						<input type="email" class="cont-input-top add-input" name="email" placeholder="Куда мне писать" qtip-position="right">
 						</div>
 						<p class="cont-top cont-mid">Сообщение</p>
-						<textarea class="text-mid add-input" name="text" placeholder="Кратно в чем суть"></textarea>
+						<textarea class="text-mid add-input" name="text" placeholder="Кратно в чем суть" qtip-position="left"></textarea>
 						<p class="cont-top cont-mid">Введите код указанный на картинке</p>
 						<table>
 							<tr>
@@ -79,7 +79,7 @@
 								<td><img src="php/cap.php" /></td>
 							</div>
 							<div class="form-group-top top2">
-								<td><input class="cont-input-top add-input" type="text" name="capt" placeholder="Введите код"></td>
+								<td><input class="cont-input-top add-input" type="text" name="capt" placeholder="Введите код" qtip-position="right"></td>
 							</div>
 							</tr>
 						</table><br>

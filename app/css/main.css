@@ -285,3 +285,8 @@ html,body{
   	width:97%;
   	padding-left: 7px;
 }
+.has-error{
+	border-color: rgb(242, 204, 205);
+	background-color: rgb(242, 204, 205);
+	color: rgb(242, 204, 205;
+}

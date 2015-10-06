@@ -29,11 +29,11 @@
                     <div class="form-head">
                         Авторизируйтесь
                     </div>
-                    <form action="" class="adform" id="adf">
+                    <form action="php/login.php" class="adform" id="adf" method="POST">
                         <p class="flabel">Логин</p>
-                        <input type="text" class="admin-input add-input" placeholder="Введите логин" qtip-position="left" qtip-content="Введите логин!">
+                        <input type="text" name="login" class="admin-input add-input" placeholder="Введите логин" qtip-position="left" qtip-content="Введите логин!">
                         <p class="flabel">Пароль</p>
-                        <input type="password" class="admin-input add-input" placeholder="Введите пароль" qtip-position="left" qtip-content="Введите пароль!">
+                        <input type="password" name="pass" class="admin-input add-input" placeholder="Введите пароль" qtip-position="left" qtip-content="Введите пароль!">
                         <button type="submit" class="admin-btn" id="enter">Войти</button>
                     </form>         
             </div>

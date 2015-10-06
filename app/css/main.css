@@ -238,36 +238,9 @@ html,body{
 	margin: auto;
 	font-family: "fira_sanslight";
 	color: #4A545D;
-}
-.foot-text{
 	text-align: center;
 	font-size: 13px;
-	width: 960px;
-	margin: 0 auto;
 	padding-top: 30px;
-	display: inline-block;
-}
-.foot-inside .lock{
-	display: inline-block;
-	position: relative;
-	top: 0px;
-	left: 300px;	
-}
-.lock .lock-link{
-	display: block;
-	height: 40px;
-	font-family: 'fira_sansbook';
-  	font-size: 16px;
-  	line-height: 2.2;
-	color: #4a545d;
-	text-decoration: none;
-	background: url(../img/lock.png) no-repeat;
-	padding-left: 24px;
-	margin-right: 80px;
-}
-.lock .lock-link:hover{
-	text-decoration: underline;
-	background: url(../img/locko.png) no-repeat;
 }
 /*Inputs*/
 .add-input{

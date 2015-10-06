@@ -19,9 +19,6 @@
 	margin-left: 20px;
 	padding-left: 0px;
 }
-.p1{
-	background: url("../img/s1.png");
-}
 .new-proj{
 	background: url("../img/new.png");
 	cursor: pointer;
@@ -172,28 +169,6 @@
 .im-down{
 	float: left;
 	width: 80%;
-}
-.down-but{
-	background-color: rgb(72, 203, 232);
-	background-image: url("../img/file.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width:52px;
-	height: 41px;
-	float: right;
-
-}
-.image-down {
-	position: relative;
-	overflow: hidden;
-}
-.image-down input.upload {
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	cursor: pointer;
-	opacity: 0;
-	filter: alpha(opacity=0);
 }
 .sub-1{
 	font-size: 19px;

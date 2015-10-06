@@ -28,36 +28,16 @@
     		<div class="menu">
     			<nav class="pnav">
 	              <ul class="pnav-list">
-	                <li class="navigationi current"><a href="index.php" class="pnav-link">Обо мне</a></li>
-	                <li class="navigationi"><a href="works.php" class="pnav-link">Мои работы</a></li>
-	                <li class="navigationi"><a href="contact.php" class="pnav-link">Связаться со мной</a></li>
+	                <li class="navigationi current"><a href="index.php" class="pnav-link">About me</a></li>
+	                <li class="navigationi"><a href="works.php" class="pnav-link">Portfolio</a></li>
+	                <li class="navigationi"><a href="contact.php" class="pnav-link">Contact me</a></li>
 	              </ul>
 	            </nav>
-	            <div class="contacts">
-				<div class="maincont contact">
-					Контакты
-
-				</div>
-				<div class="contact contact1">
-					<span class="contact-icon ic1"></span>
-                  	<a href="mailto:fisika80@gmail.com" class="con-link">fisika80@gmail.com</a>
-					
-				</div>
-				<div class="contact contact2 ">
-					<span class="contact-icon ic2"></span>
-                    <a href="tel:+48500504958" class="con-link">+48500504958</a>
-					
-				</div>
-				<div class="contact contact3 ">
-					<span class="contact-icon ic3" ></span>
-                  	<a href="tel:noterr4" class="con-link">noterr4</a>
-					
-				</div>
-			</div>
+	           <?php include 'php/navigation.php'; ?>
     		</div>
     		<div class="main">
     			<div class="block">
-    				<h2 class="block-head">Основная информация</h2>
+    				<h2 class="block-head">General information</h2>
 	              <div class="block-body clearfix">
 	                <div class="image-wrap">
 	                  <div class="image-image"><img src="img/photo.jpg" alt="Borys Komarov" class="me"></div>
@@ -65,32 +45,28 @@
 	                <div class="about-wrap">
 	                  <ul class="about-list">
 	                    <li class="about-item clearfix">
-	                      <div class="about-title">Меня зовут:</div>
-	                      <div class="about-info">Борис Комаров</div>
+	                      <div class="about-title">My name:</div>
+	                      <div class="about-info">Borys Komarov</div>
 	                    </li>
 	                    <li class="about-item clearfix">
-	                      <div class="about-title">Мой возраст:</div>
-	                      <div class="about-info">18 лет</div>
+	                      <div class="about-title">My age:</div>
+	                      <div class="about-info">19</div>
 	                    </li>
 	                    <li class="about-item clearfix">
-	                      <div class="about-title">Мой город:</div>
-	                      <div class="about-info">Киев, Украина</div>
-	                    </li>
-	                    <li class="about-item clearfix">
-	                      <div class="about-title">Моя специализация:</div>
-	                      <div class="about-info">FRONTEND разработчик</div>
+	                      <div class="about-title">My city:</div>
+	                      <div class="about-info">Warsaw, Poland</div>
 	                    </li>
 	                    <div class="about-item clearfix">
-	                      <div class="about-title">Ключевые навыки:</div>
+	                      <div class="about-title">Skills:</div>
 	                      <div class="about-info skills">
 	                        <ul class="skills-list">
 	                          <li class="skill-item">html</li>
 	                          <li class="skill-item">css</li>
+	                          <li class="skill-item">ruby</li>
 	                          <li class="skill-item">javascript</li>
-	                          <li class="skill-item">gulp</li>
+	                          <li class="skill-item">Java</li>
 	                          <li class="skill-item">git</li>
 	                          <li class="skill-item">php</li>
-	                          <li class="skill-item">ruby</li>
 	                        </ul>
 	                      </div>
 	                    </div>
@@ -99,7 +75,7 @@
 	              </div>
     			</div>
     			<div class="block">
-    				<h2 class="block-head">Опыт работы</h2>
+    				<h2 class="block-head">Work experience</h2>
               <div class="block-body">
                 <ul class="block-list">
                   <li class="block-item icon-work">
@@ -110,16 +86,12 @@
               </div>
     			</div>
     			<div class="block">
-    				<h2 class="block-head">Образование</h2>
+    				<h2 class="block-head">Education</h2>
               <div class="block-body">
                 <ul class="block-list">
                   <li class="block-item icon-college">
-                    <div class="where">Незаконченное высшее. Politechnika Warszawska</div>
-                    <div class="period">Октябрь 2013 - по настоящее время</div>
-                  </li>
-                  <li class="block-item icon-course">
-                    <div class="where">Курсы Loftschool</div>
-                    <div class="period">Июль 2015 - по настоящее время</div>
+                    <div class="where">Politechnika Warszawska, Computer science</div>
+                    <div class="period">October 2013 - <?php $today = date("F j, Y, g:i a"); echo $today;?></div>
                   </li>
                 </ul>
               </div>

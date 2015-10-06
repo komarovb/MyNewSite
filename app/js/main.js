@@ -7,14 +7,13 @@ $(document).ready(function() {
 			$(".new-proj").on('click',app.ModalShow);
 			$("#close-but").on('click',app.ModalClose);
 			$("#sbut").on('click',function(){
-				app.Validation("#cont-form")
+				app.proceed("#cont-form");
 			});
 			$("#download").on('click',function(){
-				app.Validation("#NewProj")
+				app.proceed("#NewProj");
 			});
 			$("#enter").on('click',function(e){
-				e.preventDefault();
-				app.Validation("#adf");
+				app.proceed("#adf");
 			});
 		},
 		setUpListeners2:function(){
@@ -112,6 +111,34 @@ $(document).ready(function() {
 	  },
 	  removeError:function(){
 	  	$(this).removeClass('has-error');
+	  },
+	  createProject:function(formID){
+	  	var form = $(formID);
+	  	if(formID==="#cont-form")
+	  	{
+	  		app.sendMSG(formID);
+	  	}
+	  	else{
+	  		form.submit();
+	  	}
+	  },
+	  proceed:function(formName){
+			//if(app.Validation(formName))
+				app.createProject(formName);
+	  },
+	  sendMSG:function(formID)
+	  {
+	  	var form = $(formID),
+	  		str = form.serialize();
+	  	$.ajax({
+	  		url: 'php/sendMSG.php',
+	  		type: 'POST',
+	  		data: str,
+	  	})
+	  	.success(function(data) {
+	  		console.log(data);
+	  	});
+	  	
 	  }
 	};
 	app.initialize();

@@ -25,22 +25,22 @@
         <![endif]-->
     <div id="popup_name" class="popup_block">
 		<div class="modal-header">
-			<div class="header-text het">Добавление проекта</div>
+			<div class="header-text het">Adding a project</div>
 			<div class="clo-butt het" id="close-but"></div>
 			<div class="smal-line"></div>
 		</div>
 		<div class="modal-body">
 			<form id="NewProj" class="single-form" action="php/createP.php" method="POST"   
    				enctype="multipart/form-data">
-				<p>Название проекта</p>
-				<input type="text" placeholder="Введите название" class="add-input" name="name" id="name" qtip-position="left" qtip-content="Введите название!">
-				<p>Картинка проекта</p>
-				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" qtip-position="left" qtip-content="Выберите файл!">
-				<p>URL проекта</p>
-				<input type="text" placeholder="Добавте ссылку" class="add-input" name="url" id="url" qtip-position="left" qtip-content="Введите URL!">
-				<p>Описание</p>
-				<textarea placeholder="Пара слов о вашем проекте" class="add-input" name="desc" id="desc" qtip-position="left" qtip-content="Введите описание!"></textarea>
-				<button type="button" class="sub-1" id="download">Добавить</button>
+				<p>Name of the project</p>
+				<input type="text" placeholder="Write a name" class="add-input" name="name" id="name" qtip-position="left" qtip-content="Write a name!">
+				<p>Image</p>
+				<input type="file" name="image" class="upload add-input" id="do-img" accept="image/*" id="img-inn" qtip-position="left" qtip-content="Choose a file!">
+				<p>URL</p>
+				<input type="text" placeholder="Add a link" class="add-input" name="url" id="url" qtip-position="left" qtip-content="Write URL!">
+				<p>Description</p>
+				<textarea placeholder="Few words about your project" class="add-input" name="desc" id="desc" qtip-position="left" qtip-content="Don't forget about description!"></textarea>
+				<button type="button" class="sub-1" id="download">Add</button>
 			</form>
 		</div>
 	</div>

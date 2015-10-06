@@ -123,7 +123,7 @@ $(document).ready(function() {
 	  	}
 	  },
 	  proceed:function(formName){
-			//if(app.Validation(formName))
+			if(app.Validation(formName))
 				app.createProject(formName);
 	  },
 	  sendMSG:function(formID)

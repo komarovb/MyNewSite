@@ -9,13 +9,7 @@
 					
 				</div>
 				<div class="contact contact2 ">
-					<span class="contact-icon ic2"></span>
-                    <a href="tel:+48500504958" class="con-link">+48500504958</a>
-					
-				</div>
-				<div class="contact contact3 ">
-					<span class="contact-icon ic3" ></span>
-                  	<a href="tel:noterr4" class="con-link">noterr4</a>
-					
+					<span class="contact-icon ic3"></span>
+                    <a href="tel:noterr4" class="con-link">noterr4</a>
 				</div>
 			</div>

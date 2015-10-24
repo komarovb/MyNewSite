@@ -64,8 +64,8 @@
 							</div>
 							</tr>
 						</table><br>
-						<button type="button" class="but-bot sub-1" id="sbut">Отправить</button>
-						<button type="reset" class="but-bot sub-1" id="clearbut">Очистить</button>
+						<button type="button" class="but-bot sub-1" id="sbut">Send</button>
+						<button type="reset" class="but-bot sub-1" id="clearbut">Clear</button>
 					</form>
 				</div>
     			</div>

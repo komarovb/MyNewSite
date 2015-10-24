@@ -62,7 +62,7 @@
     		</div>
     		<div class="main">
     			<div class="block">
-    				<h2 class="block-head">Мои проекты</h2>
+    				<h2 class="block-head">My projects</h2>
 	             	<div class="block-body clearfix">
 	             	
 	              	</div>

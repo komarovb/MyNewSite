@@ -3,7 +3,7 @@
 <header class="pheader">
         <div class="head-wrap clearfix">
     		<div class="headd left">
-    			<a href="index.php" class="logo-link"><img src="img/logo.png" alt="Logo" class="logo-image"></a>
+    			<a href="index.php" class="logo-link"><img src="" alt="Logo" class="logo-image"></a>
     		</div>
     		<div class="headd right">
     			<ul class="socials">

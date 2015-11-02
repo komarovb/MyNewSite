@@ -136,7 +136,13 @@ $(document).ready(function() {
 	  		data: str,
 	  	})
 	  	.success(function(data) {
-	  		console.log(data);
+	  		if(data==="OK"){
+	  			alert("Your message will be delivered as soon as possible!");
+	  			$("#clearbut").click();
+	  		}
+	  		else{
+	  			alert("There was some error, please try again later!");
+	  		}
 	  	});
 	  	
 	  }

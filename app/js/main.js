@@ -7,6 +7,7 @@ $(document).ready(function() {
 			$(".new-proj").on('click',app.ModalShow);
 			$("#close-but").on('click',app.ModalClose);
 			$("#sbut").on('click',function(){
+				$("#sbut").attr('disabled','disabled');
 				app.proceed("#cont-form");
 			});
 			$("#download").on('click',function(){
@@ -142,7 +143,9 @@ $(document).ready(function() {
 	  		}
 	  		else{
 	  			alert("There was some error, please try again later!");
+	  			console.log(data);
 	  		}
+	  		$("#sbut").removeAttr('disabled');
 	  	});
 	  	
 	  }

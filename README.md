@@ -1,13 +1,13 @@
 # MyNewSite
-Для того чтобы установить мой проект вам понадобиться bower и npm
+To install this project ypu would need: bower and npm
 
-Шаг 1
-Клонируем себе репозиторий
+Step 1
+Clone this repository
 
-Шаг 2
-Находясь в папке с проектом введем в консоль 2 следующие команды:
+Step 2
+In console use this two commands: (of course in repository directory)
 npm install
 bower install
 
-Шаг 3
-Проект готов! Запускаем локальный сервер из консоли командой gulp и наслаждаемся результатом.
+Step 3
+Project is ready!

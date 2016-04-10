@@ -8,6 +8,7 @@ $(document).ready(function() {
 			$("#close-but").on('click',app.ModalClose);
 			$("#sbut").on('click',function(){
 				$("#sbut").attr('disabled','disabled');
+				$("#clearbut").attr('disabled','disabled');
 				app.proceed("#cont-form");
 			});
 			$("#download").on('click',function(){
@@ -124,8 +125,13 @@ $(document).ready(function() {
 	  	}
 	  },
 	  proceed:function(formName){
-			if(app.Validation(formName))
+			if(app.Validation(formName)){
 				app.createProject(formName);
+			}
+			else{
+				$("#sbut").removeAttr('disabled');
+	  			$("#clearbut").removeAttr('disabled');
+			}
 	  },
 	  sendMSG:function(formID)
 	  {
@@ -146,6 +152,7 @@ $(document).ready(function() {
 	  			console.log(data);
 	  		}
 	  		$("#sbut").removeAttr('disabled');
+	  		$("#clearbut").removeAttr('disabled');
 	  	});
 	  	
 	  }

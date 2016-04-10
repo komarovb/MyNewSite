@@ -40,7 +40,7 @@
     				<h2 class="block-head">General information</h2>
 	              <div class="block-body clearfix">
 	                <div class="image-wrap">
-	                  <div class="image-image"><img src="img/photo.jpg" alt="Borys Komarov" class="me"></div>
+	                  <div class="image-image"><img src="img/m1.png" alt="Borys Komarov" class="me"></div>
 	                </div>
 	                <div class="about-wrap">
 	                  <ul class="about-list">
@@ -60,13 +60,14 @@
 	                      <div class="about-title">Skills:</div>
 	                      <div class="about-info skills">
 	                        <ul class="skills-list">
+                              <li class="skill-item">Java</li>
 	                          <li class="skill-item">html</li>
 	                          <li class="skill-item">css</li>
 	                          <li class="skill-item">ruby</li>
 	                          <li class="skill-item">javascript</li>
-	                          <li class="skill-item">Java</li>
 	                          <li class="skill-item">git</li>
 	                          <li class="skill-item">php</li>
+                              <li class="skill-item">...</li>
 	                        </ul>
 	                      </div>
 	                    </div>
